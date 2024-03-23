@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "ote",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -75,12 +75,6 @@
             }
           },
           "defaultConfiguration": "development"
-        },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "OTE:build"
-          }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
