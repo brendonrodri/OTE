@@ -1,24 +1,31 @@
-.header_container{
+header{
     width: 100%;
     height: 20vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 47, 47);
+}
+.header_container{
+    width: 95%;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 1.3rem;
-    background-color: rgb(63, 63, 63);
+    
 }
 
 .header_logo-container{
-    width: 25%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
 .header_logo-container h2{
+    text-align: center;
     font-size: 1.5rem;
     color: rgb(190, 30, 30);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'OpenSans', sans-serif;
 }
 
 .header_logo_image{
@@ -45,7 +52,7 @@
     font-size: 1rem;
     font-weight: w;
     color: rgb(190, 30, 30);
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .menu_item:hover{
     transform: scale(1.1);
@@ -72,4 +79,27 @@
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 0.7rem;
     padding-left: 10px;
+}
+.social_media_nav{
+    list-style: none;
+    width: 12%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.social_media_list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.social_media_item{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 5px;
+    font-weight: w;
+    color: #f2f2f2;
+    font-family: 'Montserrat', sans-serif;
 }
