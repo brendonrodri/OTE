@@ -7,7 +7,6 @@ import { HeaderModule } from './components/header/header.module';
 import { MainBannerComponent } from './components/main-banner/main-banner.component';
 import { MainBannerModule } from './components/main-banner/main-banner.module';
 import { AppRoutingModule } from './router-module.module';
-import { MainPageModule } from './Pages/main-page/main-page.module';
 
 @NgModule({
   declarations: [
@@ -17,8 +16,7 @@ import { MainPageModule } from './Pages/main-page/main-page.module';
     BrowserModule,
     AppRoutingModule,
     HeaderModule,
-    MainBannerModule,
-    MainPageModule
+    MainBannerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
