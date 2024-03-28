@@ -1,0 +1,31 @@
+.main_banner--content{
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.main_banner--content div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner_title{
+    width: 70%;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 1.8rem;
+    color: #f2f2f2;
+    margin: 0.8rem 0;
+}
+.banner_content-text{
+    width: 70%;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #f2f2f2;
+    margin: 0.8rem 0.25rem;
+
+}
