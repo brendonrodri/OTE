@@ -15,17 +15,18 @@
 }
 .banner_title{
     width: 70%;
-    font-family: 'OpenSans', sans-serif;
-    font-size: 1.8rem;
-    color: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #FAF3E0;
     margin: 0.8rem 0;
 }
 .banner_content-text{
-    width: 70%;
-    font-family: 'OpenSans', sans-serif;
-    font-size: 1.3rem;
-    text-align: justify;
-    color: #f2f2f2;
+    width: 65%;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #FAF3E0;
     margin: 0.8rem 0.25rem;
 
 }
