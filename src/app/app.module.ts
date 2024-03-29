@@ -5,6 +5,7 @@ import { HeaderModule } from './components/header/header.module';
 import { MainBannerModule } from './components/main-banner/main-banner.module';
 import { AppRoutingModule } from './router-module.module';
 import { MainPageModule } from './Pages/main-page/main-page.module';
+import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { MainPageModule } from './Pages/main-page/main-page.module';
     MainBannerModule,
     MainPageModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
