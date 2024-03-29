@@ -1,8 +1,18 @@
-<section class="main_banner--section">
-    <ote-banner-content 
-        *ngFor="let content of bannerContent" 
-        [title]="content.title"
-        [content]="content.content"
-    >
-    </ote-banner-content>
+<section 
+    class="banner_background"
+    [style.background-image]="'url(' + bannerContent[sliderCounter].backgroundImage + ')'">
+    <section 
+        class="main_banner--section">
+        <button class="banner_chevron" (click)="prevSlide()">
+            <i class="fa-solid fa-chevron-left fa-2xl" style="color: #ffffff;"></i>
+        </button>
+        <ote-banner-content 
+            [title]="bannerContent[sliderCounter].title"
+            [content]="bannerContent[sliderCounter].content"
+        >
+        </ote-banner-content>
+        <button class="banner_chevron" (click)="nextSlide()">
+            <i class="fa-solid fa-chevron-right fa-2xl" style="color: #ffffff"></i>
+        </button>
+    </section>
 </section>
